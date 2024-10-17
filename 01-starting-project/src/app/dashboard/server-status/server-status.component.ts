@@ -10,7 +10,9 @@ import { Component, OnInit } from '@angular/core';
 export class ServerStatusComponent implements OnInit {
   currentStatus: 'online' | 'offline' | 'unknown' = 'offline';
 
-  constructor() {}
+  constructor() {
+    console.log('hello');
+  }
 
   ngOnInit() {
     setInterval(() => {
