@@ -24,6 +24,5 @@ export class ServerStatusComponent implements OnInit {
         this.currentStatus = 'unknown';
       }
     }, 5000);
-    // Testando
   }
 }
