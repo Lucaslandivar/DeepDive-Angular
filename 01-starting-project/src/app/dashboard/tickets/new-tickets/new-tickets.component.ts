@@ -46,3 +46,5 @@ export class NewTicketsComponent implements OnInit, AfterViewInit {
     this.enteredTitle = '';
   }
 }
+
+// Testando
